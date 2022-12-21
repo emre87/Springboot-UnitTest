@@ -1,6 +1,6 @@
-package com.dailycodebuffer.Springboot.tutorial.error;
+package com.emre.Springboot.tutorial.error;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.ErrorMessage;
+import com.emre.Springboot.tutorial.entity.ErrorMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -16,7 +16,7 @@ public class RestResponseEntityExceptionHandler
 
     @ExceptionHandler(DepartmentNotFoundException.class)
     public ResponseEntity<ErrorMessage> departmentNotFoundException(DepartmentNotFoundException exception,
-                                                    WebRequest request) {
+                                                                    WebRequest request) {
         ErrorMessage message = new ErrorMessage(HttpStatus.NOT_FOUND,
                 exception.getMessage());
 

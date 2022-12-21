@@ -1,6 +1,6 @@
-package com.dailycodebuffer.Springboot.tutorial.repository;
+package com.emre.Springboot.tutorial.repository;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
+import com.emre.Springboot.tutorial.entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

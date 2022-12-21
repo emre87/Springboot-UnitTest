@@ -1,8 +1,8 @@
-package com.dailycodebuffer.Springboot.tutorial.controller;
+package com.emre.Springboot.tutorial.controller;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.error.DepartmentNotFoundException;
-import com.dailycodebuffer.Springboot.tutorial.service.DepartmentService;
+import com.emre.Springboot.tutorial.entity.Department;
+import com.emre.Springboot.tutorial.error.DepartmentNotFoundException;
+import com.emre.Springboot.tutorial.service.DepartmentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

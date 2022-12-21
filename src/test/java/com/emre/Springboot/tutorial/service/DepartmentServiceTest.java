@@ -1,7 +1,7 @@
-package com.dailycodebuffer.Springboot.tutorial.service;
+package com.emre.Springboot.tutorial.service;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.repository.DepartmentRepository;
+import com.emre.Springboot.tutorial.entity.Department;
+import com.emre.Springboot.tutorial.repository.DepartmentRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

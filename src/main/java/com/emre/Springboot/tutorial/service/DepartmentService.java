@@ -1,7 +1,7 @@
-package com.dailycodebuffer.Springboot.tutorial.service;
+package com.emre.Springboot.tutorial.service;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.error.DepartmentNotFoundException;
+import com.emre.Springboot.tutorial.entity.Department;
+import com.emre.Springboot.tutorial.error.DepartmentNotFoundException;
 
 import java.util.List;
 

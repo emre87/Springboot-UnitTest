@@ -1,6 +1,6 @@
-package com.dailycodebuffer.Springboot.tutorial.repository;
+package com.emre.Springboot.tutorial.repository;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
+import com.emre.Springboot.tutorial.entity.Department;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

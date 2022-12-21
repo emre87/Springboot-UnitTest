@@ -1,8 +1,7 @@
-package com.dailycodebuffer.Springboot.tutorial.controller;
+package com.emre.Springboot.tutorial.controller;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.error.DepartmentNotFoundException;
-import com.dailycodebuffer.Springboot.tutorial.service.DepartmentService;
+import com.emre.Springboot.tutorial.entity.Department;
+import com.emre.Springboot.tutorial.service.DepartmentService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
@@ -11,10 +10,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 

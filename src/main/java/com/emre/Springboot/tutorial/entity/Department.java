@@ -1,4 +1,4 @@
-package com.dailycodebuffer.Springboot.tutorial.entity;
+package com.emre.Springboot.tutorial.entity;
 
 import lombok.*;
 
